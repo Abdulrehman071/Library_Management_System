@@ -1,4 +1,4 @@
-# LibraryMS — Library Management System
+# Library_Management_system
 
 A C# WinForms desktop application for managing library books, members, and borrow records.
 
@@ -7,7 +7,7 @@ A C# WinForms desktop application for managing library books, members, and borro
 ## Project Structure
 
 ```
-LibraryV6/
+Library_Management_system/
 ├── LibraryMS.sln                        ← Open this in Visual Studio
 ├── SetupDatabase.sql                    ← Optional: run in SSMS for sample data
 │
