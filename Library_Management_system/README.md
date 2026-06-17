@@ -182,38 +182,6 @@ Tables are created automatically on first launch if they do not exist.
 
 ---
 
-## Color Scheme
-
-| Element                  | Color                        |
-|--------------------------|------------------------------|
-| Sidebar background       | `#F4F4F6` (light grey)       |
-| Active nav button        | `#999999` background + White text + Bold |
-| Inactive nav button      | `#F4F4F6` + Dark text        |
-| ToolStrip background     | `#F4F4F6`                    |
-| Grid column headers      | `#F4F4F6` + Bold text        |
-| Row selection            | System Highlight             |
-| Alternating rows         | `#F7F7FA`                    |
-| Save / Issue / Return btn| `#1E1E1E` background + White text |
-| Cancel button            | `#C8C8C8` background         |
-| Main background          | White                        |
-| Overdue text             | `#A00000` (dark red)         |
-
----
-
-## VS Designer Compatibility
-
-All `.Designer.cs` files follow the standard WinForms Designer format:
-- `this.components = new System.ComponentModel.Container()` ✔
-- All controls declared as **class-level fields** ✔
-- Full `this.controlName.Property = value` style ✔
-- Proper `SuspendLayout()` / `ResumeLayout()` wrapping ✔
-- No lambda functions or inline factory helpers ✔
-
-Every form and user control can be opened in the **Visual Studio Designer**
-for drag-and-drop editing.
-
----
-
 ## Architecture
 
 ```
